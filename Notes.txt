@@ -1,0 +1,30 @@
+Whenever we have to run microservices mini project developed by Khushi,
+then while starting the server the below sequence should be followed in order to achieve
+the problem less starting otherwise you will be facing the error for service endpoint as they have been defined in the service registry :
+
+
+
+
+service-registry
+cloud config
+department
+user
+cloud
+hystrix
+
+
+
+
+To run the urls on the browser and check its working:
+Eureka - http://localhost:8761/
+
+To run Zipkin server:
+open project folder -> place ur zikpin server jar file -> to start the zipkin server -> open cmd prompt at that folder only 
+
+-> E:\Microservice>java -jar zipkin-server-2.23.18-exec.jar
+
+To run zipkin server on browser:
+http://127.0.0.1:9411/
+
+
+https://www.youtube.com/watch?v=BnknNTN8icw&t=1s
